@@ -25,7 +25,7 @@ int main()
     // Write the total for each number 1-6
     for (int i = 0; i < 6; i++)
     {
-        printf("%d: %d\n", i+1, countDice[i]);
+        printf("%d\n", countDice[i]);
     }
 
     return 0;
