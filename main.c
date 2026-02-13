@@ -28,5 +28,10 @@ int main()
         printf("%d\n", countDice[i]);
     }
 
+    // Write out the sum
+    printf("%d\n", sum);
+    // Mean value
+    printf("%.1f\n", sum / 100.0f);
+
     return 0;
 }
